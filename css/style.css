@@ -1,6 +1,14 @@
 body {
     background-color: rgb(66, 0, 100);
     font-family: "Verdana";
+    overflow-x: hidden; //horizontal
+    
+
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 ul.navigation {
@@ -255,8 +263,15 @@ i {
 }
 
 .grid-container {
-    display: flex;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    
 }
+
+
+
+
+
 
 
 
