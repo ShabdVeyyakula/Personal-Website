@@ -1,0 +1,266 @@
+body {
+    background-color: rgb(66, 0, 100);
+    font-family: "Verdana";
+}
+
+ul.navigation {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 100;
+
+}
+
+li.nav{
+    display: inline;
+    margin-right: 20px;
+    font-size: 26px;
+    padding: 15px;
+    color: white;
+
+}
+
+h1 {
+    font-size: 150px;
+    margin: 1px;
+    color: white;
+}
+
+h3 {
+    font-size: 50px;
+    color: rgb(245, 227, 154);
+}
+
+.x {
+    padding-left: 20px;
+    margin-top: 200px;
+}
+
+header {
+    padding-left: 0px;
+    margin-top: 0px;
+    background-image:url("https://imgur.com/4sUbcnV");
+
+    background-repeat: no-repeat;
+    position:relative;
+
+    background-size: 100%;
+    height: 100;
+    
+}
+
+ul.intro {
+    list-style-type: none;
+    display: flex;
+}
+
+li.intro-lest{
+    display: inline;
+    margin-right: 0px;
+    padding: 0px;
+    
+}
+
+img.image1 {
+    width: 1000px;
+    padding-left: 0px;
+    margin: 100px;
+}
+
+.about-section {
+    margin-top: 200px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+center.info {
+    background-color: rgb(82, 0, 136);
+    height: 600px;
+    width: 1200px;
+    margin-top: 2px;
+}
+
+p{
+    font-size: 80px;
+    color: white;
+    color: rgb(245, 227, 154);
+    padding: 20px;
+
+}
+
+
+.info-box{
+    background-color: rgb(82, 0, 136);
+    height: 130px;
+    width: 100%px;
+}
+
+.about{
+  background-color: transparent; 
+  border-color: white;
+  border-width: thin;
+  
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex-row;
+  font-size: 16px;
+  width: 290px;
+  height: 100px;
+
+}
+
+.about:focus{
+    background-color: rgb(245, 227, 154);
+  border-color: none;
+  
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  width: 290px;
+  height: 100px;
+}
+
+.button{
+    list-style-type: none;
+    display: inline;
+}
+
+.image2 {
+    width: 350px;
+}
+
+.profile {
+    list-style-type: none;
+    padding: 40px;
+    padding-right: 800px;
+}
+
+.name {
+    padding: 0px;
+    color: white;
+    size: 50px;
+}
+
+h4 {
+    size: 38px;
+}
+
+.about-me{
+    font-size: 20px;
+    color: white;
+    height: 100px;
+
+}
+
+.about-info{
+    list-style-type: none;
+}
+
+.about-info-child {
+    display: inline;
+    padding-top: 400px;
+    padding-bottom: 400px;
+
+}
+
+.about-block {
+    margin-top: 30px;
+}
+
+.project-section {
+    margin-bottom: 170px;
+    padding: auto;
+}
+
+i {
+    color: rgb(245, 227, 154);
+    font-size: 70px;
+}
+
+.icon-size{
+    width: 80px;
+    margin: 100px;
+}
+
+.project-item{
+    height: 400px;
+    width: 450px;
+    background-color: rgb(153, 88, 217);
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    text-underline-position: none;
+
+}
+
+.icon {
+    width: 50px;
+    margin: 5px;
+    
+}
+
+.procura-description {
+    font-size: 15px;
+    color: rgb(245, 227, 154);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.tools {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(82, 0, 136);
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.toolsx {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+
+.icon-block {
+    padding-right: 280px;
+    padding-top: 15px;
+    margin: 20px;
+}
+
+.procura-title {
+    color: rgb(82, 0, 136);
+    font-size: 30px;
+    padding-right: 240px;
+    padding-top: 5px;
+}
+
+.grid {
+    display: inline-flex;
+}
+
+.longer-text {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.grid-container {
+    display: flex;
+}
+
+
+
+  
+
+
+
