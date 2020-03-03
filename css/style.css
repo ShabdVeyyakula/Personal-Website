@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(66, 0, 100);
+    background: linear-gradient(141deg, #000657 0%, #0f0186 51%, #000657 75%);
     font-family: "Verdana";
     overflow-x: hidden; //horizontal
     
