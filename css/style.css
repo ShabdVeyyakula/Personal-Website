@@ -6,6 +6,20 @@ body {
 
 }
 
+html {
+    scroll-behavior: smooth;
+   }
+   
+   a {
+    text-decoration: none;
+    color: black;
+   } 
+   
+   #down {
+    margin-top: 100%;
+    padding-bottom: 25%;
+   } 
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -308,6 +322,10 @@ i {
     font-size: 15px;
     padding-top: 10px;
 
+}
+
+.extraspace{
+    height: 10000;
 }
 
 

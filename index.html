@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="css\style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script> src = "Js\animate.js"</script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 
 
 
@@ -16,10 +21,27 @@
         
         <nav>
             <ul class="navigation">
-                <li class="nav">Contact</li>
-                <li class="nav">Competitions</li>
-                <li class="nav">Projects</li>
-                <li class="nav">About</li>
+                
+                
+                
+                <a href="#contact">
+                    <li class="nav">Contact</li>
+
+
+                </a>
+                <a href="#comp">
+                    <li class="nav">Competitions</li>
+                </a>
+                
+                <a href="#project-section">
+                    <li class="nav">Projects</li>
+
+                </a>
+                <a href="#about-section">
+                    <li class="nav">About</li>
+
+                </a>
+
             </ul>
         </nav>
         <ul class="intro">
@@ -41,7 +63,7 @@
     </header>
     
     </ul>
-  <div class="about-section">
+  <div class="about-section", id='about-section' data-aos="fade-right">
     <div class="info-box">
         <center>
             <p>
@@ -51,7 +73,7 @@
     </div>
 
 </div>
-    <center class="about-block">
+    <center class="about-block" data-aos="fade-left">
         <Center class="info">
             <u>
                 <li class="button"> <button class="about">About</button>
@@ -93,7 +115,7 @@
     </center>
 
 
-    <div class="project-section">
+    <div class="project-section", id='project-section' data-aos="fade-right">
         <div class="info-box">
             <center>
                 <p>
@@ -110,7 +132,7 @@
         <div class="grid-container">
                 
             
-                <div class="project-item">
+                <div class="project-item" data-aos="fade-right">
                     <div>
                         <div class="icon-block">
                             <a href="https://github.com/ShabdVeyyakula" target="_blank"><img src="Images\Icon awesome-github.png" , class="icon"></a>
@@ -148,7 +170,7 @@
                     </div>
                 </div>
     
-                <div class="project-item">
+                <div class="project-item" data-aos="fade-down">
                     <div>
                         <div class="icon-block">
                             <a href="https://github.com/ShabdVeyyakula" target="_blank"><img src="Images\Icon awesome-github.png" , class="icon"></a>
@@ -185,7 +207,7 @@
 
                     </div>
                 </div>
-                <div class="project-item">
+                <div class="project-item" data-aos="fade-left">
                     <div>
                         <div class="icon-block">
                             <a href="https://github.com/ShabdVeyyakula" target="_blank"><img src="Images\Icon awesome-github.png" , class="icon"></a>
@@ -222,7 +244,7 @@
 
                     </div>
                 </div>
-                <div class="project-item">
+                <div class="project-item"data-aos="fade-right">
                     <div>
                         <div class="icon-block">
                             <a href="https://github.com/ShabdVeyyakula" target="_blank"><img src="Images\Icon awesome-github.png" , class="icon"></a>
@@ -259,7 +281,7 @@
 
                     </div>
                 </div>
-            <div class="project-item">
+            <div class="project-item"data-aos="fade-up">
                     <div>
                         <div class="icon-block">
                             <a href="https://github.com/ShabdVeyyakula" target="_blank"><img src="Images\Icon awesome-github.png" , class="icon"></a>
@@ -296,7 +318,7 @@
 
                     </div>
                 </div>
-                <div class="project-item">
+                <div class="project-item" data-aos="fade-left">
                     <div>
                         <div class="icon-block">
                             <a href="https://github.com/ShabdVeyyakula" target="_blank"><img src="Images\Icon awesome-github.png" , class="icon"></a>
@@ -341,7 +363,7 @@
 
     
 
-    <div class="about-section">
+    <div class="about-section" id='comp' data-aos="fade-right">
         <div class="info-box">
             <center>
                 <p>
@@ -480,19 +502,19 @@
                             <div class="grid">
                                 <div class= "toolsr">
                                     <center class="toolsm">
-                                        Flutter
+                                        02/34/19
                                     </center>
     
                                 </div>
                                 <div class= "toolsr">
                                     <center class="toolsm">
-                                        Dart
+                                        First Place
                                     </center>
     
                                 </div>
                                 <div class= "toolsr">
                                     <center class="toolsm">
-                                        Android Studio
+                                        Project:GitHub
                                     </center>
     
                                 </div>
@@ -583,7 +605,7 @@
 
     </div>
 
-    <div class="about-section">
+    <div class="about-section" id="contact" data-aos="fade-right">
         <div class="info-box">
             <center>
                 <p>
@@ -594,8 +616,8 @@
     
     </div>
 
-    <center>
-        <footer>
+    <center >
+        <footer >
             <a href="mailto:veyyakulashabd@gmail.com"> <img src="Images\Icon simple-gmail.png" class="icon-size"></a>
             <a href="html\discord-tag.html" target="_blank">           <img src="Images\Icon awesome-discord.png", class="icon-size">
             </a>
@@ -606,6 +628,17 @@
         </footer>
 
     </center>
+
+    <div class="extraspace">
+
+    </div>
+    <script>
+        AOS.init({
+    duration: 1000,
+    offset: 400,
+  })
+    </script>
+
     
 
     
