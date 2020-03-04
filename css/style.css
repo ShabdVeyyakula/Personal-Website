@@ -1,9 +1,28 @@
+
+
 body {
-    background: linear-gradient(141deg, #000657 0%, #0f0186 51%, #000657 75%);
     font-family: "Verdana";
-    overflow-x: hidden; //horizontal
+    transition: background 1s ease;
+    background: teal;
+    overflow-x: hidden;
+//horizontal
     
 
+}
+
+.work{
+    margin: 0px;
+    padding: 0px;
+    height: 1200px;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+
+
+.header {
+    background-color: blue;
 }
 
 html {
@@ -39,15 +58,14 @@ li.nav{
     display: inline;
     margin-right: 20px;
     font-size: 26px;
-    padding: 15px;
-    color: white;
+    color: black;
 
 }
 
 h1 {
     font-size: 150px;
     margin: 1px;
-    color: white;
+    color: black;
 }
 
 h3 {
@@ -328,9 +346,44 @@ i {
     height: 10000;
 }
 
+.icon-logo-src {
+    width: 120px;
+}
 
+.icon-logo-merced {
+    width : 120px;
+}
 
+.longer-text-title {
+    font-size: 30px;
+    padding-left: 20px;
+}
 
+.icon-logo-mission {
+    width: 150px;
+}
+
+.color-violet {
+    background-color: #7A4EAB;
+  }
+  .color-indigo {
+    background-color: #4332CF;
+  }
+  .color-blue {
+    background-color: #2F8FED;
+  }
+  .color-green {
+    background-color: #4DCF42;
+  }
+  .color-yellow {
+    background-color: #FAEB33;
+  }
+  .color-orange {
+    background-color: #F19031;
+  }
+  .color-red {
+    background-color: #F2293A;
+  }
 
 
 
