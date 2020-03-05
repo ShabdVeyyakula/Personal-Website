@@ -1,10 +1,12 @@
 
 
-body {
-    font-family: "Verdana";
+.wrapper {
+    font-family: 'Source Sans Pro', sans-serif;
     transition: background 1s ease;
-    background: teal;
+    background-color: $black;
     overflow-x: hidden;
+    transition: background .2s ease;
+
 //horizontal
     
 
@@ -18,6 +20,8 @@ body {
     width: 100%;
 
 }
+
+
 
 
 
@@ -52,20 +56,21 @@ ul.navigation {
     flex-direction: row-reverse;
     font-size: 100;
 
+
 }
 
 li.nav{
     display: inline;
     margin-right: 20px;
     font-size: 26px;
-    color: black;
+    color: white;
 
 }
 
 h1 {
     font-size: 150px;
     margin: 1px;
-    color: black;
+    color: white;
 }
 
 h3 {
@@ -138,20 +143,24 @@ p{
 }
 
 .about{
-  background-color: transparent; 
-  border-color: white;
-  border-width: thin;
+  background-color: rgba(20, 8, 126, 0.911); 
+  border-width: 0px;
   
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: flex-row;
   font-size: 16px;
-  width: 290px;
+  width: 300px;
   height: 100px;
-
+  transition-duration: 0.4s;
+  font-size: 20px;
+  cursor: pointer;
+  float: left;
 }
+
+
+
 
 .about:focus{
     background-color: rgb(245, 227, 154);
@@ -172,8 +181,20 @@ p{
     display: inline;
 }
 
+.about:hover {
+    background-color: rgb(245, 227, 154);
+    border-color: rebeccapurple;
+    color: black;
+
+
+}
+
 .image2 {
     width: 350px;
+    padding-right: 800px;
+    padding-top: 20px;
+
+
 }
 
 .profile {
@@ -186,6 +207,8 @@ p{
     padding: 0px;
     color: white;
     size: 50px;
+    padding-right: 800px;
+
 }
 
 h4 {
@@ -196,6 +219,7 @@ h4 {
     font-size: 20px;
     color: white;
     height: 100px;
+    padding-top: -80px;
 
 }
 
