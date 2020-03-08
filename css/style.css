@@ -3,13 +3,17 @@
 .wrapper {
     font-family: 'Source Sans Pro', sans-serif;
     transition: background 1s ease;
-    background-color: $black;
     overflow-x: hidden;
-    transition: background .2s ease;
 
 //horizontal
     
 
+}
+
+body {
+    background-image: url('css\Group 1.png');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .work{
@@ -20,8 +24,6 @@
     width: 100%;
 
 }
-
-
 
 
 
@@ -86,7 +88,6 @@ h3 {
 header {
     padding-left: 0px;
     margin-top: 0px;
-    background-image:url("https://imgur.com/4sUbcnV");
 
     background-repeat: no-repeat;
     position:relative;
@@ -121,7 +122,7 @@ img.image1 {
 }
 
 center.info {
-    background-color: rgb(82, 0, 136);
+    background-color: rgb(38, 31, 63);
     height: 600px;
     width: 1200px;
     margin-top: 2px;
@@ -130,20 +131,19 @@ center.info {
 p{
     font-size: 80px;
     color: white;
-    color: rgb(245, 227, 154);
+    color: rgb(245, 227, 154);  
     padding: 20px;
 
 }
 
 
 .info-box{
-    background-color: rgb(82, 0, 136);
     height: 130px;
     width: 100%px;
 }
 
 .about{
-  background-color: rgba(20, 8, 126, 0.911); 
+  background-color: rgba(59, 25, 70, 0.911); 
   border-width: 0px;
   
   color: white;
@@ -159,7 +159,10 @@ p{
   float: left;
 }
 
-
+.section1 {
+    background-image: url(https://imgur.com/0JHOrBk);
+   
+}
 
 
 .about:focus{
@@ -256,7 +259,7 @@ i {
 .project-item{
     height: 400px;
     width: 450px;
-    background-color: rgb(153, 88, 217);
+    background-color: rgb(51, 36, 66);
     border: none;
     border-radius: 20px;
     margin: 20px;
