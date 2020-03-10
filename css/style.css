@@ -1,7 +1,7 @@
 
 
 .wrapper {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Sen', sans-serif;
     transition: background 1s ease;
     overflow-x: hidden;
 
@@ -16,12 +16,64 @@ body {
 
 }
 
+.odometer {
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
 .work{
     margin: 0px;
     padding: 0px;
     height: 1200px;
     background-repeat: no-repeat;
     width: 100%;
+
+}
+.profile-pic {
+    width: 200px;
+    height: 200px;
+}
+
+
+.personal-description1 {
+    color: rgb(245, 227, 154);
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.github-stats {
+    margin-top: 270px;
+    padding-right: 10px;
+}
+
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blinking-cursor {
+    from, to { border-color: transparent }
+    50% { border-color: pink; }
+    } 
+
+
+.type-text {
+    color: rgb(201, 154, 255);
+    font-family: monospace;
+    overflow: auto;
+    white-space: nowrap;
+    animation: typing 3.5s steps(40, end),
+    blinking-cursor .5s step-end infinite;
+    letter-spacing: .17em;
+    font-size: 40px;
+    border-right: .17em solid pink;
+    padding: 0px;
+
+
+
 
 }
 
@@ -278,7 +330,7 @@ i {
 .project-item{
     height: 400px;
     width: 450px;
-    background-color: rgb(51, 36, 66);
+    background-color: rgb(115, 134, 241);
     border: none;
     border-radius: 20px;
     margin: 20px;
@@ -331,6 +383,12 @@ i {
 
 .grid {
     display: inline-flex;
+
+}
+
+.grid1 {
+    display: inline-flex;
+    margin-top: -20px;
 }
 
 .longer-text {

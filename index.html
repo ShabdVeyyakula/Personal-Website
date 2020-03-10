@@ -7,7 +7,13 @@
     <script> src = "Js\animate.js"</script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-   
+    <link rel="stylesheet" href="odometer-theme-car.css" />
+    <script src="Js\odometer.js"></script>
+    <script
+  src="http://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
 
 
 
@@ -16,6 +22,16 @@
 
 
 <body class="wrapper" >
+    <script src="https://raw.githubusercontent.com/HubSpot/odometer/v0.4.6/odometer.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jS/odometer.js"></script>
+
+    <script>
+        window.odometerOptions = {
+            format: '(ddd).dd'
+        };
+    </script>
 
     <div class="section1" >
         <header class="section1">
@@ -52,11 +68,33 @@
                         <h3>
                             Hello, I'm
                         </h3>
-                        <h1>
+                        <h1 class="name">
                             Shabd <br> Veyyakula
                         </h1>
                     </div>
                 </li>
+                   
+                    
+                    <div class="github-stats" style="padding-right: 10cm;">
+                        <h2 class="odometer">00</h2>
+                        <br>
+                        <h2 class="odometer2">00</h2>
+
+                        <script>
+                            setTimeout(function(){
+                                $('.odometer').html(12);
+
+                            }, 1000);
+                        </script>
+
+                        
+    
+                    </div>
+
+                    
+
+                
+               
                 <!--<li class = "intro-list">
                     <img src="Images\20191227_145558.png", class="image1"/>
                 </li>-->
@@ -69,7 +107,7 @@
     
 
 
-   <div  class="section2">
+   <div  class="section2" data-aos="fade-right">
     <div class="about-section", id='about-section' data-aos="fade-right">
         <div class="info-box">
             <center>
@@ -80,10 +118,10 @@
         </div>
     
     </div>
-        <center class="about-block" data-aos="fade-left" >
+        <center class="about-block" data-aos="zoom-in" >
             <Center class="info">
                 
-                     <button class="about">About</button>
+                     <button  class="about">About</button>
                     
                      <button class="about">Skills</button>
                     
@@ -145,7 +183,7 @@
             <div class="grid-container" data-color="#7A4EAB">
                     
                 
-                    <div class="project-item" data-aos="fade-right">
+                    <div class="project-item" data-aos="zoom-in">
                         <div>
                             <div class="icon-block">
                                 <a href="https://github.com/ShabdVeyyakula" target="_blank"><img src="Images\Icon awesome-github.png" , class="icon"></a>
@@ -183,7 +221,7 @@
                         </div>
                     </div>
         
-                    <div class="project-item" data-aos="fade-down">
+                    <div class="project-item" data-aos="zoom-in">
                         <div>
                             <div class="icon-block">
                                 <a href="https://github.com/ShabdVeyyakula" target="_blank"><img src="Images\Icon awesome-github.png" , class="icon"></a>
@@ -191,10 +229,43 @@
     
                             </div>
                             
-                            <h2 class="procura-title">Procura</h2>
-                            <p class = "procura-description">Procura is app that allows hackathon organizers manage all their hackathon with ease. 
-                                 They can keep track of their attendees as well as take attendance.  They can also notify all attendees such as food arrives or this workshop 
-                                 is starting. </p>
+                            <h2 class="procura-title">G-Alert</h2>
+                            <p class = "procura-description">G-Alert is an app directed towords schools to help students when in danger of gunshootings.  Active gunshooting are becoming more common in the US and many students are unaware and not sure what to do in a situation like that.  G-Alert allow you to alarm the whole school when a shooter is on campus and also give you quick dials to famoly member and 911.  Escape routes are also shown. </p>
+                            <div class="grid1">
+                                <div class= "tools">
+                                    <center class="toolsx">
+                                        Flutter
+                                    </center>
+    
+                                </div>
+                                <div class= "tools">
+                                    <center class="toolsx">
+                                        Dart
+                                    </center>
+    
+                                </div>
+                                <div class= "tools">
+                                    <center class="longer-text">
+                                        Android Studio
+                                    </center>
+    
+                                </div>
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>
+                    <div class="project-item" data-aos="zoom-in">
+                        <div>
+                            <div class="icon-block">
+                                <a href="https://github.com/ShabdVeyyakula" target="_blank"><img src="Images\Icon awesome-github.png" , class="icon"></a>
+                                <a href="https://www.procura.ml/" target="_blank"><img src="Images\Icon awesome-external-link-alt.png" , class="icon"></a>
+    
+                            </div>
+                            
+                            <h2 class="procura-title">ParCar</h2>
+                            <p class = "procura-description">Parking has alwayd been such a hastle and most of your time is wasted trying to find a spot.  This app allows you to hire a driver who park in a spot that he/she fins and reserves that spot when you arrive.  This way you save a lot of time and you can enjoy what you came for. </p>
                             <div class="grid">
                                 <div class= "tools">
                                     <center class="toolsx">
@@ -220,7 +291,7 @@
     
                         </div>
                     </div>
-                    <div class="project-item" data-aos="fade-left">
+                    <div class="project-item"data-aos="zoom-in">
                         <div>
                             <div class="icon-block">
                                 <a href="https://github.com/ShabdVeyyakula" target="_blank"><img src="Images\Icon awesome-github.png" , class="icon"></a>
@@ -228,10 +299,8 @@
     
                             </div>
                             
-                            <h2 class="procura-title">Procura</h2>
-                            <p class = "procura-description">Procura is app that allows hackathon organizers manage all their hackathon with ease. 
-                                 They can keep track of their attendees as well as take attendance.  They can also notify all attendees such as food arrives or this workshop 
-                                 is starting. </p>
+                            <h2 class="procura-title">Delivery-Deck</h2>
+                            <p class = "procura-description">Delivery Deck is an app that allows organizations to hire individuals as drivers for smaller level deleveries instead of wasting a lot of money in delivery organizations such as Fedex and UPS. </p>
                             <div class="grid">
                                 <div class= "tools">
                                     <center class="toolsx">
@@ -257,7 +326,7 @@
     
                         </div>
                     </div>
-                    <div class="project-item"data-aos="fade-right">
+                <div class="project-item"data-aos="zoom-in">
                         <div>
                             <div class="icon-block">
                                 <a href="https://github.com/ShabdVeyyakula" target="_blank"><img src="Images\Icon awesome-github.png" , class="icon"></a>
@@ -265,11 +334,9 @@
     
                             </div>
                             
-                            <h2 class="procura-title">Procura</h2>
-                            <p class = "procura-description">Procura is app that allows hackathon organizers manage all their hackathon with ease. 
-                                 They can keep track of their attendees as well as take attendance.  They can also notify all attendees such as food arrives or this workshop 
-                                 is starting. </p>
-                            <div class="grid">
+                            <h2 class="procura-title">Civita</h2>
+                            <p class = "procura-description"> Many students these days are struggling to find place tou complete their community service requirement for school.  At the same time, many organizations are struggling to find help.  Covota allows organizations to post an activity where other students can sign up for.  This way organizations get the help that they desire and students can complete theie yearly goal for hours.</p>
+                            <div class="grid1">
                                 <div class= "tools">
                                     <center class="toolsx">
                                         Flutter
@@ -294,7 +361,7 @@
     
                         </div>
                     </div>
-                <div class="project-item"data-aos="fade-up">
+                    <div class="project-item" data-aos="zoom-in">
                         <div>
                             <div class="icon-block">
                                 <a href="https://github.com/ShabdVeyyakula" target="_blank"><img src="Images\Icon awesome-github.png" , class="icon"></a>
@@ -302,48 +369,9 @@
     
                             </div>
                             
-                            <h2 class="procura-title">Procura</h2>
-                            <p class = "procura-description">Procura is app that allows hackathon organizers manage all their hackathon with ease. 
-                                 They can keep track of their attendees as well as take attendance.  They can also notify all attendees such as food arrives or this workshop 
-                                 is starting. </p>
-                            <div class="grid">
-                                <div class= "tools">
-                                    <center class="toolsx">
-                                        Flutter
-                                    </center>
-    
-                                </div>
-                                <div class= "tools">
-                                    <center class="toolsx">
-                                        Dart
-                                    </center>
-    
-                                </div>
-                                <div class= "tools">
-                                    <center class="longer-text">
-                                        Android Studio
-                                    </center>
-    
-                                </div>
-    
-                            </div>
-    
-    
-                        </div>
-                    </div>
-                    <div class="project-item" data-aos="fade-left">
-                        <div>
-                            <div class="icon-block">
-                                <a href="https://github.com/ShabdVeyyakula" target="_blank"><img src="Images\Icon awesome-github.png" , class="icon"></a>
-                                <a href="https://www.procura.ml/" target="_blank"><img src="Images\Icon awesome-external-link-alt.png" , class="icon"></a>
-    
-                            </div>
-                            
-                            <h2 class="procura-title">Procura</h2>
-                            <p class = "procura-description">Procura is app that allows hackathon organizers manage all their hackathon with ease. 
-                                 They can keep track of their attendees as well as take attendance.  They can also notify all attendees such as food arrives or this workshop 
-                                 is starting. </p>
-                            <div class="grid">
+                            <h2 class="procura-title">Vestige</h2>
+                            <p class = "procura-description">Vestige is an app directed towords schools to imporve the communications between students and counselers.  Students sometimes require a lot of help and dont consider talking to their conunceler with very important questions that they might have.  Vestige allows better communication between student and councelers with feature such as making a 4-year planner, activites to improve grades, etc.</p>
+                            <div class="grid1">
                                 <div class= "tools">
                                     <center class="toolsx">
                                         Flutter
@@ -379,7 +407,7 @@
 
     
 
-       <div class="section3">
+       <div class="section3" data-aos="fade-left">
         <div class="about-section" id='comp' data-aos="fade-right">
             <div class="info-box">
                 <center>
@@ -441,9 +469,7 @@
                                 </div>
                                 
                                 <h2 class="ttsf-title">SRC Hacks</h2>
-                                <p class = "ttsf-description">Procura is app that allows hackathon organizers manage all their hackathon with ease. 
-                                     They can keep track of their attendees as well as take attendance.  They can also notify all attendees such as food arrives or this workshop 
-                                     is starting. </p>
+                                <p class = "ttsf-description">At SRC hacks, the theme was open ended so we could come up with whatver we wanted.  We have decided to look into modern-dad problems and more buisness realted so we have came up with Delivery deck.  To get more information scroll to "My Projects"</p>
                                 <div class="grid">
                                     <div class= "toolsr">
                                         <center class="toolsm">
@@ -477,9 +503,7 @@
                                 </div>
                                 
                                 <h2 class="ttsf-title">Mission Hacks</h2>
-                                <p class = "ttsf-description">Procura is app that allows hackathon organizers manage all their hackathon with ease. 
-                                     They can keep track of their attendees as well as take attendance.  They can also notify all attendees such as food arrives or this workshop 
-                                     is starting. </p>
+                                <p class = "ttsf-description">At mission hacks we have decided that there was a problem between student and cpunceler communication.  We needed to make sure that students were guided the rigt path so that they can have a succesful future.  Our project here was Vestige</p>
                                 <div class="grid">
                                     <div class= "toolsr">
                                         <center class="toolsm">
@@ -512,7 +536,7 @@
         
                                 </div>
                                 
-                                <h2 class="longer-text-title">Atoms and Bits</h2>
+                                <h2 class="ttsf-title">Atoms & Bits</h2>
                                 <p class = "ttsf-description">Procura is app that allows hackathon organizers manage all their hackathon with ease. 
                                      They can keep track of their attendees as well as take attendance.  They can also notify all attendees such as food arrives or this workshop 
                                      is starting. </p>
@@ -549,9 +573,7 @@
                                 </div>
                                 
                                 <h2 class="ttsf-title">Hack Merced</h2>
-                                <p class = "ttsf-description">Procura is app that allows hackathon organizers manage all their hackathon with ease. 
-                                     They can keep track of their attendees as well as take attendance.  They can also notify all attendees such as food arrives or this workshop 
-                                     is starting. </p>
+                                <p class = "ttsf-description"></p>
                                 <div class="grid">
                                     <div class= "toolsr">
                                         <center class="toolsm">
@@ -585,9 +607,8 @@
                                 </div>
                                 
                                 <h2 class="ttsf-title">Teen TechSF</h2>
-                                <p class = "ttsf-description">Procura is app that allows hackathon organizers manage all their hackathon with ease. 
-                                     They can keep track of their attendees as well as take attendance.  They can also notify all attendees such as food arrives or this workshop 
-                                     is starting. </p>
+                                <p class = "ttsf-description">The theme at this hackathon was to help the community in someway.  We have decided that gunshootings at schools was
+                                    a majot problem.  So we have created G-Alert</p>
                                 <div class="grid">
                                     <div class= "toolsr">
                                         <center class="toolsm">
